@@ -1,0 +1,65 @@
+# === 기본 설정 (Build) ===
+HELP.md
+.gradle
+**/.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === 🚨 보안 및 환경변수 (절대 깃허브에 올리면 안 되는 것들!) ===
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+apps/backend/dnc/local.properties
+google-services.json
+infra/*.json
+
+# === 실행 시 생기는 로그 & 임시 파일들 (Runtime) ===
+uploads/
+logs/
+*.log
+.nys/
+nys/
+venv
+
+# === 에디터 (IDE) 설정 ===
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# === 운영체제 (OS) 찌꺼기 파일 ===
+.DS_Store
+Thumbs.db
