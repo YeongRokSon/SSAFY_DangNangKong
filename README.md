@@ -44,7 +44,7 @@
 
 ## 🗄️ 5. ERD (Entity Relationship Diagram)
 데이터베이스의 전반적인 구조와 관계도입니다.
-![ERD 이미지](./readme_image/ERD.png)
+![ERD 이미지](./readme_image/erd.png)
 * **주요 테이블:** 사용자 기본 정보를 관리하는 `users` 테이블과 연속혈당측정기(CGM) 데이터를 시계열로 저장하는 `glucose_data` 테이블을 중심으로 설계되었습니다.
 
 ---
